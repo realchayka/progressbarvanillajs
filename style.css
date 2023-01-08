@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+}
+h1 {
+    margin: 0;
+}
+.progressbar {
+    height: 10px;
+    width: 100%;
+    background: orange;
+    position: fixed;
+}
+.progressbar > .progressbar-line{
+    height: 10px;
+    width: 0;
+    background: orangered;
+}
